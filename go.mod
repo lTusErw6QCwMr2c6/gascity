@@ -12,3 +12,5 @@ require (
 require (
 	go.uber.org/multierr v1.11.0 // indirect
 )
+
+// Personal fork of gastownhall/gascity - using for learning Go HTTP routing with chi
