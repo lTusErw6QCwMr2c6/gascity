@@ -18,4 +18,5 @@ require (
 // TODO: experiment with go-chi middleware (rate limiting, request ID)
 // Added github.com/go-chi/middleware to start experimenting with built-in chi middlewares
 // (RequestID, RealIP, Logger, Recoverer) - see chi docs for usage examples
+// TODO: try swapping zap for slog (stdlib) to reduce dependencies - compare ergonomics
 // Upstream: https://github.com/gastownhall/gascity
