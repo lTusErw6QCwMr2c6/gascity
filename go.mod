@@ -14,3 +14,5 @@ require (
 )
 
 // Personal fork of gastownhall/gascity - using for learning Go HTTP routing with chi
+// TODO: experiment with go-chi middleware (rate limiting, request ID)
+// Upstream: https://github.com/gastownhall/gascity
