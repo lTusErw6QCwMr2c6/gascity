@@ -19,4 +19,7 @@ require (
 // Added github.com/go-chi/middleware to start experimenting with built-in chi middlewares
 // (RequestID, RealIP, Logger, Recoverer) - see chi docs for usage examples
 // TODO: try swapping zap for slog (stdlib) to reduce dependencies - compare ergonomics
+// NOTE: go-chi/middleware v1.0.0 is a thin shim that re-exports chi/v5/middleware;
+//       keeping it here for now but may remove once I'm comfortable importing directly
+//       from github.com/go-chi/chi/v5/middleware instead.
 // Upstream: https://github.com/gastownhall/gascity
