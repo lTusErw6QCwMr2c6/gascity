@@ -22,4 +22,6 @@ require (
 // NOTE: go-chi/middleware v1.0.0 is a thin shim that re-exports chi/v5/middleware;
 //       keeping it here for now but may remove once I'm comfortable importing directly
 //       from github.com/go-chi/chi/v5/middleware instead.
+// NOTE: go.uber.org/multierr is an indirect dep of zap - if I switch to slog this whole
+//       zap + multierr subtree goes away, which would be a nice cleanup.
 // Upstream: https://github.com/gastownhall/gascity
