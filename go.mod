@@ -28,4 +28,7 @@ require (
 //       remember to restrict this to specific origins before deploying anywhere public.
 //       Also worth setting AllowCredentials: false explicitly when using wildcard origins
 //       since browsers block credentialed requests to wildcard CORS anyway.
+// NOTE: considered adding github.com/go-chi/httprate for rate limiting experiments but
+//       holding off until I actually wire up a route that needs it - don't want to
+//       accumulate unused deps. Revisit when tackling the TODO above.
 // Upstream: https://github.com/gastownhall/gascity
