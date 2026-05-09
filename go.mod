@@ -26,4 +26,6 @@ require (
 //       zap + multierr subtree goes away, which would be a nice cleanup.
 // NOTE: go-chi/cors default AllowedOrigins is ["*"] which is fine for local dev but
 //       remember to restrict this to specific origins before deploying anywhere public.
+//       Also worth setting AllowCredentials: false explicitly when using wildcard origins
+//       since browsers block credentialed requests to wildcard CORS anyway.
 // Upstream: https://github.com/gastownhall/gascity
