@@ -24,4 +24,6 @@ require (
 //       from github.com/go-chi/chi/v5/middleware instead.
 // NOTE: go.uber.org/multierr is an indirect dep of zap - if I switch to slog this whole
 //       zap + multierr subtree goes away, which would be a nice cleanup.
+// NOTE: go-chi/cors default AllowedOrigins is ["*"] which is fine for local dev but
+//       remember to restrict this to specific origins before deploying anywhere public.
 // Upstream: https://github.com/gastownhall/gascity
